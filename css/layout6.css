@@ -1,0 +1,64 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.bola {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
+.linha1 { 
+  background: #b4a9dd; 
+  justify-content: flex-end; 
+}
+.linha2 { 
+  background: #abcf95; 
+  justify-content: flex-end; 
+}
+.linha3 { 
+  background: #c29595; 
+  justify-content: center; 
+}
+.linha4 { 
+  background: #dfdfb1; 
+  justify-content: space-between; 
+}
+.linha5 { 
+  background: #8590a3; 
+  justify-content: space-around; 
+}
+
+.linha1 .bola { 
+  background: #7971b8; 
+}
+.linha2 .bola { 
+  background: #658d40; 
+}
+.linha3 .bola {
+  background: #a55350; }
+.linha4 .bola { 
+  background: #d3dd18; 
+}
+.linha5 .bola { 
+  background: #35578d; 
+}

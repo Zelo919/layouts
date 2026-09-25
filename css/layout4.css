@@ -1,0 +1,38 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.nav, .header, .article, .aside, .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+}
+
+.nav { background: plum; flex-grow: 1; }
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 5;
+}
+
+.header { background: salmon; flex-grow: 1; }
+.footer { background: rgb(204, 34, 204); flex-grow: 1; }
+
+.meio {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 3;
+}
+
+.article { background: lightgreen; flex-grow: 3; }
+.aside   { background: sandybrown; flex-grow: 1; }

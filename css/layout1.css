@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header, .main, .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+}
+
+.header { background: #be634f; flex-grow: 1; }
+.main   { background: #5d9950; flex-grow: 3; }
+.footer { background: #592692; flex-grow: 1; }
